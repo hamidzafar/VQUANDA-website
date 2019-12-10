@@ -1,0 +1,8 @@
+[
+  {
+		"question": "Count the key people of the Clinton Foundation?",
+		"sparql": "SELECT DISTINCT COUNT(?uri) WHERE { <http://dbpedia.org/resource/Clinton_Foundation> <http://dbpedia.org/property/keyPeople> ?uri  . }",
+		"answer": "There are [8] key people in the Clinton Foundation."
+  },
+  
+]
